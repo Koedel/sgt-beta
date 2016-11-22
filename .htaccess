@@ -1,0 +1,11 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^(www.)?sgt.esy.es/$
+#RewriteCond %{REQUEST_URI} !^/sgt/
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ /sgt/$1
+#RewriteCond %{HTTP_HOST} ^(www.)?sgt.esy.es$
+#RewriteRule ^(/)?$ sgt/index.php [L]
